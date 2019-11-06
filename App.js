@@ -1,5 +1,5 @@
-import { createStackNavigator, createAppContainer } from 'react-navigation';
-
+import { createAppContainer } from 'react-navigation';
+import {createStackNavigator} from 'react-navigation-stack'
 import BooksScreen from './components/BookScreen';
 import BookDetailScreen from './components/BookDetailScreen';
 import AddBookScreen from './components/AddBookScreen';

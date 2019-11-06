@@ -1,5 +1,5 @@
 import React from "react";
-import { Bvutton, View, Text } from "react-native";
+import { Button, View, Text } from "react-native";
 
 class BookScreen extends React.Component {
   static NavigationOptions = {
