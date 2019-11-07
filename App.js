@@ -1,3 +1,5 @@
+import React from 'react'
+import { AppRegistry } from 'react-native'
 import { createAppContainer } from 'react-navigation';
 import {createStackNavigator} from 'react-navigation-stack'
 import BooksScreen from './components/BookScreen';
@@ -28,10 +30,10 @@ const client = new ApolloClient({
   })
 });
 
-const App = () => {
+const App = () => (
   <ApolloProvider client={client}>
     <MyRootComponent/>
   </ApolloProvider>
-}
+)
 AppRegistry.registerComponent('MyApp', () => App) // registering apollo provider
 export default App;
