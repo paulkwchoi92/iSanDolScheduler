@@ -12,7 +12,7 @@ import { HttpLink } from 'apollo-link-http'
 import { ApolloProvider } from 'react-apollo'
 
 
-
+// this is the main navigator rendering which component to use 
 const MainNavigator = createStackNavigator({
   Book: { screen: BooksScreen },
   BookDetails: { screen: BookDetailScreen },
